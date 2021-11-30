@@ -1,0 +1,44 @@
+@mixin d-flex($direction, $wrap, $justify, $align) {
+  display: flex;
+  flex-flow: $direction $wrap;
+  justify-content: $justify;
+  @if $wrap == "nowrap" {
+    align-items: $align;
+  } @else {
+    align-content: $align;
+    align-items: $align;
+  }
+}
+
+@mixin position($type, $y, $ynum, $x, $xnum) {
+  position: $type;
+  @if $y == "top" {
+    top: $ynum;
+  } @else {
+    bottom: $ynum;
+  }
+  @if $x == "left" {
+    left: $xnum;
+  } @else {
+    right: $xnum;
+  }
+}
+
+@mixin media($d) {
+  $mobile: 770px;
+  $tablet: 1065px;
+
+  @if ($d == "m") {
+    @media screen and (max-width: #{$mobile}) {
+      @content;
+    }
+  } @else if($d == "t") {
+    @media screen and (max-width: #{$tablet}) {
+      @content;
+    }
+  } @else {
+    @media screen and (max-width: #{$d + "px"}) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Lato"), url("Lato-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Lato"), url("Lato-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Merriweather"), url("Merriweather-Regular.woff") format("woff");
+}

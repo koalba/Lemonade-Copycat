@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-main);
+  font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  color: var(--c-main);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+em,
+u,
+b,
+i,
+blockquote {
+  font-size: var(--fs-400);
+  font-weight: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+iframe {
+  display: block;
+  width: 100%;
+  /* object-fit: cover; */
+  /* max-width: 100%; */
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+form,
+input,
+select,
+option,
+textarea,
+button {
+  display: block;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  /* appearance: none;
+    -webkit-appearance: none; */
+}
+
+textarea {
+  resize: none;
+  /* resize: horizontal;
+    resize: vertical; */
+}
+
+table,
+td,
+tr {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* input::placeholder{
+
+} */

@@ -1,0 +1,57 @@
+:root {
+  /* ---------- COLOR ---------- */
+
+  --white: white;
+  --black: black;
+
+  --c-main-light: white;
+  --c-main: #92abdc;
+  --c-main-dark: #42508a;
+  --c-main-darker: #212540;
+
+  --c-grey: #b7b7b7;
+  --c-grey-dark: #4a4a4a;
+  --c-accent: #ff0083;
+  --c-accent-hover: #dc0073;
+
+  --g-main-bkg: radial-gradient(90% 70% at bottom, #92abdc 0%, #161930 50%);
+
+  /* ---------- FONT ---------- */
+
+  --ff-main: "Lato", Helvetica, Arial, sans-serif;
+  --ff-display: "Merriweather", serif;
+
+  --fs-100: 0.75rem; //       12px
+  --fs-200: 0.875rem; //      14px
+  --fs-300: 1rem; //          16px
+  --fs-400: 1.125rem; //      18px
+  --fs-500: 1.25rem; //       20px
+  --fs-600: 1.375rem; //      22px
+  --fs-700: 1.625rem; //      26px
+  --fs-800: 2.875rem; //      46px
+
+  /* ---------- SPACE ---------- */
+
+  --spacer-xxs: 0.5rem;
+  --spacer-xs: 1rem;
+  --spacer-s: 1.5rem;
+  --spacer-m: 2rem;
+  --spacer-l: 3rem;
+  --spacer-xl: 4rem;
+  --spacer-xxl: 6rem;
+
+  /* ---------- MQUERY ---------- */
+  --mq-other: 100px;
+  --mq-mobile: 700px;
+  --mq-tablet: 1065px;
+}
+
+// @media (prefers-color-scheme: dark) {
+//   :root {
+//     --white: black;
+//     --black: white;
+
+//     --c-main-text: white;
+//     --c-main-bkg: black;
+//   }
+// }

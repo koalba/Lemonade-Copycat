@@ -1,0 +1,68 @@
+@keyframes clouds-bkg {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -100vw;
+  }
+}
+
+@keyframes light {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.35;
+  }
+}
+
+@keyframes moon {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+// @keyframes levitate {
+//   0% {
+//     transform: rotate(0) translateY(1rem);
+//   }
+//   50% {
+//     transform: rotate(-15deg);
+//   }
+//   100% {
+//     transform: rotate(0) translateY(-1rem);
+//   }
+// }
+
+@keyframes levitate {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(25px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes reverse-levitate {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(25px) rotate(-10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+
+@keyframes type {
+  to {
+    transform: scaleX(0);
+  }
+}
