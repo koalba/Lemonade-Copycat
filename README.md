@@ -22,7 +22,7 @@ When I saw the Lemonade's API page I really loved it! I was searching for a dark
 
 ### Screenshot
 
-![](https://koalba.com/assets/projects/LemonadeAPI.webp)
+<img src="https://koalba.com/assets/projects/LemonadeAPI.webp" width="500" alt="Lemonade API">
 
 ### Links
 
